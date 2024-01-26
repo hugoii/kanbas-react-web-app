@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Web Dev CS5610 - 07 Spring 2024
+          Welcome to Web Dev CS5610 - 07 Spring 2024 
+          <br/><small>Please scroll down for the navigation page</small>
         </p>
         <a
           className="App-link"
