@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table width="100%">
+    <tr>
+        <!-- Kanbas Navigation Column -->
+        <td valign="top">
+            <ul>
+                <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
+                <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+                <li><a href="/Kanbas/Calendar/index.html">Calendar</a></li>
+                <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
+            </ul>
+        </td>
+
+        <!-- Course Navigation Column -->
+        <td valign="top">
+            <ul>
+                <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                <li><a href="/Kanbas/Courses/Modules/screen.html">Modules</a></li>
+                <li><a href="/Kanbas/Courses/Piazza/index.html">Piazza</a></li>
+                <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                <li><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                <li><a href="/Kanbas/Courses/Setting/screen.html">Settings</a></li>
+            </ul>
+        </td>
+
+        <td valign="top">
+            <select>
+                <option>Speed Grader</option>
+            </select>
+            <hr />
+            <h2>Assignment Name</h2>
+            <label>
+                <input value="A1 - ENV + HTML">
+            </label>
+            <br>
+            <br>
+            <label>
+<textarea>
+    This is the assignment description.
+</textarea>
+            </label>
+            <br>
+            <br>
+            <label for="points">Points</label><br>
+            <input type="number" id="points" name="points" value="100"><br><br>
+            <label for="assignment-group">Assignment Group</label><br>
+            <select id="assignment-group" name="assignment-group">
+                <option>ASSIGNMENTS</option>
+            </select><br><br>
+            <label for="display-grade">Display Grade as</label><br>
+            <select id="display-grade" name="display-grade">
+                <option>Percentage</option>
+            </select><br><br>
+            <label for="submission-type">Submission Type</label><br>
+            <select id="submission-type" name="submission-type">
+                <option>Online</option>
+            </select><br><br>
+            <label>Online Entry Options</label><br />
+            <label
+            ><input type="checkbox" name="online-entry-options" />Text Entry</label
+            ><br />
+            <label>
+                <input type="checkbox" name="online-entry-options" />
+            </label>Website URL<br />
+            <label>
+                <input type="checkbox" name="online-entry-options" />
+            </label>Media Recordings<br />
+            <label>
+                <input type="checkbox" name="online-entry-options" />
+            </label>Student Annotations<br />
+            <label>
+                <input type="checkbox" name="online-entry-options" />
+            </label>File Uploads<br />
+            <br />
+            <br />
+            <label for="assign">Assign<br />Assign to</label><br>
+            <input type="text" id="assign" name="assign" value="Everyone"><br><br>
+            <label>Due Date</label><br />
+            <input type="date" value="01-01-2021" >
+            <br />
+            <br />
+            <label>Available from</label><br />
+            <input type="date" value="01-01-2021" >
+            <br />
+            <br />
+            <label>Due</label><br />
+            <input type="date" value="01-01-2021" />
+            <br>
+            <br>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+            <button>Cancel</button>
+            </a>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+            <button>Save</button>
+            </a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
