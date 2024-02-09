@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Editor/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<div class="d-block d-md-none">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <!-- left Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Brand -->
+            <div class="navbar-brand mx-auto text-center">
+                <div>CS4550.12631.202410</div>
+
+            </div>
+
+            <!-- Right  Menu -->
+            <button class="navbar-toggler position-absolute end-0 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarTop" aria-controls="offcanvasNavbarTop" aria-label="Toggle navigation">
+                <i class="fa fa-chevron-down"></i>
+            </button>
+        </div>
+
+        <!-- Offcanvas Menu -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="/Kanbas/Account/Profile/screen.html">Account</a >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Kanbas/Dashboard/screen.html">
+                            <i class="fa fa-tachometer"></i> Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Kanbas/Courses/Home/screen.html">
+                            <i class="fa fa-book"></i> Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-calendar"></i> Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-inbox"></i> Inbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-history"></i> History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-desktop"></i> Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-arrow-up"></i>Commons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-question-circle"></i> Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbarTop" aria-labelledby="offcanvasNavbarLabelTop">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabelTop">Menu</h5>
+                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                <!-- Navigation Links -->
+                <li class="nav-item">
+                    <a class="nav-link"  href="/Kanbas/Courses/Home/screen.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://piazza.com">Piazza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Zoom</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quizzes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Kanbas/Courses/Grades/screen.html">Grades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">People</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+<div class="d-flex">
+    <div class="d-none d-md-block">
+
+        <!-- Kanbas Navigation Column -->
+
+            <ul class="wd-kanbas-navigation">
+                <li><a href="http://northeastern.edu">N</a></li>
+                <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                <li >
+                    <a href="/Kanbas/Dashboard/screen.html">
+                        <i class="fa fa-tachometer"></i> Dashboard</a>
+                </li>
+                <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html">
+                    <i class="fa fa-book"></i> Courses</a> </li>
+                <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+                <li><a href="#"><i class="fa fa-inbox"></i><br>Inbox</a></li>
+                <li><a href="#"><i class="fa fa-history"></i>History</a></li>
+                <li><a href="#"><i class="fa fa-desktop"></i>Studio</a></li>
+                <li><a href="#"><i class="fa fa-arrow-up"></i>Commons</a></li>
+                <li><a href="#"><i class="fa fa-question-circle"></i><br>Help</a></li>
+            </ul>
+        </div>
+
+    <div class=" d-none d-md-block">
+        <div class="breadcrumb-container">
+            <nav  style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+                    <li class="breadcrumb-item" style="color: red;"><i class="fa fa-bars" aria-hidden="true">&nbsp&nbsp</i> CS5610.11744.202310</li>
+                    <li class="breadcrumb-item">Assignments</li>
+                    <li class="breadcrumb-item active" aria-current="page">A1 - ENV + ...</li>
+                </ol>
+            </nav>
+
+            <button class="btn-custom-sm"><i class="fa fa-eye"></i> Student view</button>
+        </div>
+    </div>
+
+        <!-- Course Navigation Column -->
+    <div class="d-none d-md-block" style="margin-top:70px;">
+
+                <ul class="wd-navigation">
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">
+                            Home</a></li>
+                    <li ><a href="/Kanbas/Courses/Home/screen.html">
+                        Modules</a></li>
+                    <li><a href="/Kanbas/Courses/Piazza/index.html">
+                        Piazza</a></li>
+                    <li><a href="/Kanbas/Courses/Grades/screen.html">
+                        Grades</a></li>
+                    <li class="wd-active"><a href="/Kanbas/Courses/Assignments/screen.html">
+                        Assignments</a></li>
+                    <li><a href="/Kanbas/Courses/Setting/screen.html">
+                        Settings</a></li>
+                </ul>
+
+        </div>
+
+    <div class="flex-fill" style="margin-top:70px;">
+        <div class="d-flex justify-content-end">
+            <span class="float-end"><i class="fa fa-check-circle text-success"></i> Published <button>
+                <i class="fa fa-ellipsis-v ms-2"></i></button>
+            </span><br>
+        </div><hr>
+
+            <h5>Assignment Name</h5>
+        <input type="text" class="form-control" value="A1 - ENV + HTML" >
+        <br>
+
+        <textarea class="form-control" rows="4">This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to a GitHub source repository, and then deploying the content to a remote server hosted on Netlify.</textarea>
+        <br>
+
+        <div class="container">
+            <div class="custom-container">
+            <div class="row  mb-3">
+                <div class="col-md-2 text-md-end" >
+                    <label for="points" class="form-label">Points</label>
+                </div>
+                <div class="col-md-8">
+                    <input type="number" id="points" name="points" class="form-control" value="100">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-2 text-md-end">
+                    <label for="assignment-group" class="form-label">Assignment Group</label>
+                </div>
+                <div class="col-md-8">
+                    <select id="assignment-group" name="assignment-group" class="form-select">
+                        <option>ASSIGNMENTS</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-2 text-md-end">
+                    <label for="display-grade" class="form-label">Display Grade as</label>
+                </div>
+                <div class="col-md-8">
+                    <select id="display-grade" name="display-grade" class="form-select">
+                        <option>Percentage</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8 ">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="online-entry-options" id="online-entry-options">
+                        <label class="form-check-label" for="online-entry-options">
+                            Do not count this assignment towards the final grade
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2 text-md-end">
+                    <label for="submission-type" class="form-label">Submission Type</label>
+                </div>
+                <div class="col-md-8">
+                    <select id="submission-type" name="submission-type" class="form-select">
+                        <option>Online</option>
+                    </select>
+                </div>
+            </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 text-md-end">
+                        <label >Assign</label>
+                    </div>
+
+                    <div class="col-md-30">
+            <div class="assign-container">
+                <label for="assign-to">Assign to</label>
+                <input type="text" id="assign-to" name="assign" value="Everyone"><br><br>
+                <label>Due </label>
+                <input type="date" value="2023-09-18" >
+                <br />
+                <br />
+                <label>Available from</label>
+                <input type="date" value="2023-09-06" >
+                <br />
+                <br />
+                <label>Until</label>
+                <input type="date" value="2023-09-18" />
+                <br>
+                <br>
+                <button type="button" class="btn btn-secondary d-block w-100">+ Add</button>
+            </div><br>
+<hr>
+
+                        <div class="row align-items-center mt-3">
+
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="notify-changes" name="notify-changes">
+                                    <label class="form-check-label" for="notify-changes">
+                                        Notify users that this content has changed
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <div class="float-md-end">
+                                <a href="/Kanbas/Courses/Assignments/screen.html" class="btn btn-secondary">Cancel</a>
+
+                                <a href="/Kanbas/Courses/Assignments/screen.html" class="btn btn-danger">Save</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+</body>
+</html>

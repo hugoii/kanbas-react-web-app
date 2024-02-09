@@ -1,0 +1,95 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.wd-modules {
+    margin: 5px;
+}
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid rgb(128, 128, 128) !important;
+    border-left: none !important;
+}
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid rgb(128, 128, 128) !important;
+}
+.wd-modules > li > ul > li {
+
+    padding: 5px;
+    border-top: 1px solid rgb(128, 128, 128) !important;
+    border-left: 2px solid green;
+    padding-left: 15px;
+}
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+
+
+.custom-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.assign-container {
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 0 auto;
+    width:50%;
+
+}
+
+.assign-container label,
+.assign-container input {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.assign-container input[type="text"],
+.assign-container input[type="date"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+.assign-container button {
+
+}
+
+.assign-container input[type="text"],
+.assign-container input[type="date"] {
+    width: 100%;
+    padding: 5px;
+}
+.breadcrumb-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+
+    z-index: 1030;
+
+    margin-right: auto;
+    width: calc(100% - 140px);
+    box-sizing: border-box;
+
+
+}
+
+.nav-link{
+    color:red;
+}
