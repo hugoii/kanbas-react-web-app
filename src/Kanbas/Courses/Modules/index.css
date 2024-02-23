@@ -1,0 +1,138 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.wd-modules {
+    margin: 5px;
+
+}
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid rgb(128, 128, 128) !important;
+    border-left: none !important;
+
+}
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid rgb(128, 128, 128) !important;
+
+}
+
+.wd-modules >li>div>ul>li{
+    border: 1px solid green;
+}
+
+
+
+.wd-modules > li > ul > li {
+    padding: 5px;
+    border-top: 1px solid rgb(128, 128, 128) !important;
+    border-left: 2px solid green;
+    padding-left: 10px;
+
+}
+.wd-modules > li {
+    margin-bottom: 20px;
+
+
+}
+
+.wd-modules > li > ul > li > ul > li {
+    padding-left: 20px;
+
+}
+
+.btn-custom-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    background-color:lightgray;
+    color:black;
+    border: none;
+}
+
+.unpublish {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    background-color:lightgray;
+    color:black;
+    border: none;
+}
+
+.publish {
+    padding: .25rem .5rem;
+    background-color: lightgreen;
+    color: white;
+    line-height: 1.5;
+    border:none;
+    font-size: .875rem;
+}
+
+.button-list1 {
+    display: flex;
+    padding:  1.2rem 0.5rem;
+    font-size: 0.25rem;
+    flex-direction: row;
+    line-height: 1;;
+    gap: 5px;
+
+}
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.btn-option {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.nav-link{
+    color:red;
+
+}
+
+.breadcrumb-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+
+    z-index: 1030;
+
+    margin-right: auto;
+    width: calc(100% - 140px);
+    box-sizing: border-box;
+
+
+}
+
+
+.title {
+    color: red;
+}
+
+
+
+

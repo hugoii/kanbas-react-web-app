@@ -1,0 +1,189 @@
+
+.breadcrumb-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breadcrumb-nav {
+    flex-grow: 1;
+}
+
+.breadcrumb {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    padding: 0 5px;
+    color: #000;
+}
+
+.breadcrumb-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active a {
+    color: #000;
+}
+
+.input-icons {
+    position: relative;
+}
+
+.input-icons .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #495057;
+}
+
+.form-select {
+    padding-left: 30px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.select-box {
+    flex: 1;
+}
+
+.form-select {
+    width: 100%;
+}
+
+.btn-groups-sm{
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: red;
+}
+
+.fa-graduation-cap{
+    color: white;
+}
+
+.fa-angle-down{
+    color: white;
+}
+
+.breadcrumb-container{
+    padding-top: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid dimgray;
+}
+
+.breadcrumb-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+
+    z-index: 1030;
+
+    margin-right: auto;
+    width: calc(100% - 140px);
+    box-sizing: border-box;
+
+
+}
+
+.bordered-cell input{
+    border: 2px solid red;
+    border-radius: 0%;
+
+}
+.highlighted {
+    background-color: #BFEFFF;
+}
+.bordered-cell {
+    border:2px solid cornflowerblue;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #cccccc;
+
+}
+
+
+
+
+
+.custom-import-btn {
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-color: lightgray;
+    color:black;
+}
+
+.custom-export-btn {
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-color: lightgray;
+    color:black;
+}
+
+.custom-setting-btn {
+    background-color: #f0f0f0;
+
+    border-color: lightgray;
+    color:black;
+}
+.custom-apply-filter-btn{
+    background-color: #f0f0f0;
+    width:150px;
+    border-color: lightgray;
+    color:black;
+    margin-left: 12px;
+
+}
+.table, .table th, .table td {
+    border: 1px solid black;
+
+}
+.table th, .table td {
+    padding: 8px;
+    text-align:center;
+
+
+}
+
+
+.table-striped tr:nth-child(odd) {
+    background-color: white;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: grey;
+}
