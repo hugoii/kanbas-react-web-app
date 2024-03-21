@@ -29,43 +29,6 @@
 }
 
 
-.custom-container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.assign-container {
-    border: 1px solid lightgray;
-    padding: 5px;
-    margin: 0 auto;
-    width:50%;
-
-}
-
-.assign-container label,
-.assign-container input {
-    display: block;
-    margin-bottom: 5px;
-
-}
-
-.assign-container input[type="text"],
-.assign-container input[type="date"] {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 5px;
-}
-
-
-.assign-container button {
-
-}
-
-.assign-container input[type="text"],
-.assign-container input[type="date"] {
-    width: 100%;
-    padding: 5px;
-}
 .breadcrumb-container {
     display: flex;
     justify-content: space-between;
@@ -94,12 +57,57 @@
     color:red;
 }
 
-.edit-button{
-    display: inline-flex;
-    background-color: lightgray;
-    margin-left: 10px;
-    padding: 5px 5px;
-    border: 1px solid lightgray;
-    align-items: center;
-    justify-content: center;
+
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 8px;
+
+}
+
+.form-table label {
+    display: block;
+}
+
+.form-table  td:first-child,
+.form-table  th:first-child {
+    text-align: right;
+}
+
+.form-table td:first-child {
+    width: 20%;
+}
+
+.form-table td:nth-child(2) {
+    width: 80%;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-row.double {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row.double > div {
+    width: 48%;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
 }

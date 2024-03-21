@@ -137,3 +137,8 @@
     font-size: 1.1em;
     border-color: lightgray;
 }
+.small-assignment-button {
+    font-size: 15px; /* Smaller font size */
+    /* Smaller padding */
+    /* Add other styles as needed */
+}

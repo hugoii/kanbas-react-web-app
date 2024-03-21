@@ -1,0 +1,9 @@
+.card-actions {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.card-actions button {
+    margin-left: 5px;
+}
